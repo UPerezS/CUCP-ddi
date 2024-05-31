@@ -1,4 +1,6 @@
-import 'package:demo_app/presentation/screens/counter/counter_Screen.dart';
+//import 'package:demo_app/presentation/screens/counter/counter_Screen.dart';
+//import 'package:demo_app/presentation/screens/counter/counter_function_screen.dart';
+import 'package:demo_app/presentation/screens/login/login_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,8 +18,7 @@ class MyApp extends StatelessWidget {
         colorSchemeSeed: Colors.amber
       ),
       darkTheme: ThemeData.dark(),
-      home: const CounterScreen()
+      home: const LoginScreen()
     );
   }
 }
-
